@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Board.css */
+.board {
+  gap: 8px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  /* border: #282c34 solid; */
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+ 
+}
+
+.square-container {
+  margin: 4px;
+ 
+}
+
+.square{
+  /* background-color: gray; */
+  width: 140px;
+  height: 140px;
+  font-size: 40px;
+  justify-content: center;
+  
+}
+/* play agian button */
+.play-again{
+  margin-top: 200px;
+}
